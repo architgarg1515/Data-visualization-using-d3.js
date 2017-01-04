@@ -10,7 +10,7 @@ This data visualization charts 5 different U.S. domestic airlines' performance f
 
 I downloaded the data from [RITA](http://www.transtats.bts.gov/OT_Delay/ot_delaycause1.asp?display=download&pn=0&month=11&year=2014), selecting a dataset that included all domestic flights from all carriers to and from major airports from June 2003 through November 2014.  Exploratory data analysis was conducted using **Rstudio**, and is detailed in `data/data.Rmd` and `data/data.html`.  While studying the data, I hypothesized that there might be trends in individual airline performance (# arrivals delayed / # total arrivals) over the 10+ year period.  I decided that a line chart with multiple series would best show these different trends across different airlines.  I first produced a cursory plot to explore the data:
 
-![Initial R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-initial-plot.png)
+![Initial R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/master/img/r-initial-plot.png)
 
 This was clearly too busy!  There were 27 airlines, and the line chart was cluttered and ineffective in displaying any distinguishable trends.  With the context of providing the reader with airlines that would be most relevant to him or her, I truncated that data to feature only the 5 most active airlines, i.e. the 5 airlines with the highest gross number of flights on a monthly basis.  I generated two plots; a re-do of the first line chart, and another chart showing total annual flights:
 
