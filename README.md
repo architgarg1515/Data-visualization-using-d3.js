@@ -75,7 +75,7 @@ I chose not to include the arrival data and raw numbers.  I didn't think that it
 
 Below is the final rendition of the data visualization:
 
-![Final Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-final.png)
+![Final Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/master/img/dimple-final.png)
 
 ### Resources
 
