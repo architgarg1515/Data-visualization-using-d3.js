@@ -14,7 +14,7 @@ I downloaded the data from [RITA](http://www.transtats.bts.gov/OT_Delay/ot_delay
 
 This was clearly too busy!  There were 27 airlines, and the line chart was cluttered and ineffective in displaying any distinguishable trends.  With the context of providing the reader with airlines that would be most relevant to him or her, I truncated that data to feature only the 5 most active airlines, i.e. the 5 airlines with the highest gross number of flights on a monthly basis.  I generated two plots; a re-do of the first line chart, and another chart showing total annual flights:
 
-![Second R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-second-plot.png)
+![Second R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/master/img/r-second-plot.png)
 
 My initial evaluation of these charts were that they were satisfactory in visualizing the different trends of these 5 airlines.  It shows how various airlines improved or worsened over time, and which airlines were currently performing the best, as of 2014.  It also showed the general trends that all 5 airlines experienced: an aggregate dip in performance from 2006 to 2008, individual peaks from 2010 to 2012, and a more recent drop from 2012 to 2014.
 
