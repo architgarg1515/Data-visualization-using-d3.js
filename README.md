@@ -10,11 +10,11 @@ This data visualization charts 5 different U.S. domestic airlines' performance f
 
 I downloaded the data from [RITA](http://www.transtats.bts.gov/OT_Delay/ot_delaycause1.asp?display=download&pn=0&month=11&year=2014), selecting a dataset that included all domestic flights from all carriers to and from major airports from June 2003 through November 2014.  Exploratory data analysis was conducted using **Rstudio**, and is detailed in `data/data.Rmd` and `data/data.html`.  While studying the data, I hypothesized that there might be trends in individual airline performance (# arrivals delayed / # total arrivals) over the 10+ year period.  I decided that a line chart with multiple series would best show these different trends across different airlines.  I first produced a cursory plot to explore the data:
 
-![Initial R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-initial-plot.png)
+[Initial R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-initial-plot.png)
 
 This was clearly too busy!  There were 27 airlines, and the line chart was cluttered and ineffective in displaying any distinguishable trends.  With the context of providing the reader with airlines that would be most relevant to him or her, I truncated that data to feature only the 5 most active airlines, i.e. the 5 airlines with the highest gross number of flights on a monthly basis.  I generated two plots; a re-do of the first line chart, and another chart showing total annual flights:
 
-![Second R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-second-plot.png)
+[Second R Plot](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/r-second-plot.png)
 
 My initial evaluation of these charts were that they were satisfactory in visualizing the different trends of these 5 airlines.  It shows how various airlines improved or worsened over time, and which airlines were currently performing the best, as of 2014.  It also showed the general trends that all 5 airlines experienced: an aggregate dip in performance from 2006 to 2008, individual peaks from 2010 to 2012, and a more recent drop from 2012 to 2014.
 
@@ -32,7 +32,7 @@ I re-evaluated the design decisions that I made during exploratory data analysis
 
 This initial iteration can be viewed at `index-initial.html`, or below:
 
-![First Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-initial.png)
+[First Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-initial.png)
 
 ### Feedback
 
@@ -75,7 +75,7 @@ I chose not to include the arrival data and raw numbers.  I didn't think that it
 
 Below is the final rendition of the data visualization:
 
-![Final Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-final.png)
+[Final Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-final.png)
 
 ### Resources
 
