@@ -32,7 +32,7 @@ I re-evaluated the design decisions that I made during exploratory data analysis
 
 This initial iteration can be viewed at `index-initial.html`, or below:
 
-![First Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/tree/master/img/dimple-initial.png)
+![First Chart](https://raw.githubusercontent.com/architgarg1515/Data-visualization-using-d3.js/master/img/dimple-initial.png)
 
 ### Feedback
 
